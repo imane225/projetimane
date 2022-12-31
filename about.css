@@ -1,0 +1,36 @@
+.phot{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: plum;
+}
+.row{
+    width: 100%;
+    padding: 50px 100px;
+
+}
+.imag{
+    width: 30%;
+    float: left;
+}
+.imag img{
+    width: 100%;
+    height: auto;
+}
+.contenu{
+    width: 60%;
+    float:left ;
+    margin-left: 50px;
+}
+.contenu h1{
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+}
+.contenu p{
+    font-size: 22px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}

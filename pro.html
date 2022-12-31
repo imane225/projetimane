@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pj.css">
+</head>
+<body>
+    <div class="container">
+    <form action="index.html"  onsubmit=" return verifierpass(this)"  class="form"  id="form">
+        <p><h1>sign up</h1></p>
+        <div class="input-con">
+        <p><label><h3> Username:</h3></label></p>
+        <p><input type="text" id="Username" name="Username" placeholder="Choose a Username" required pattern=".{3,25}"></p>
+        <small id="msg-username"></small>
+
+    </div>
+    <div class="input-con">
+        <p><label><h3> Email:</h3></label></p>
+        <p><input type="email" id="Email" name="Email" placeholder="Enter your email" required></p>
+        <small id="msg-email"></small>
+
+    </div>
+    <div class="input-con">
+        <p><label><h3> password:</h3></label></p>
+        <p><input type="text" id="password" name="password" placeholder="Enter a strong password"  required pattern="(?=.*\d)(?=.*[!@#\$%\^&\*])(?=.*[a-z])(?=.*[A-Z]).{8}"></p>
+        <small id="msg-password"></small>
+    </div>
+    <div class="input-con">
+        <p><label><h3> Confirm Password:</h3></label></p>
+        <p><input type="text" id="cpassword" name="Confirm password" placeholder="Reenter your password" required=""></p>
+        <small id="msg-cpassword"></small>
+    </div>
+        <p><input type="submit" value="sign up" class="sign" id="sign"></p>
+
+    </form>
+    <div class="photo">
+        <img src="pt.png" alt="">
+    </div>
+</div>
+<script src="pro.js"></script>
+</body>
+</html>

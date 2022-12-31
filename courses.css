@@ -1,0 +1,44 @@
+ #serch{
+        
+        background-color: rgb(222, 222, 222);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+       }
+       li {
+        list-style:none;
+        padding: 5px;
+       }
+       a:link {
+  text-decoration: none;
+  color: gray;
+}
+#pop{
+  margin-top: 50px;
+   display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  row-gap: 10px;
+
+}
+.cool-4{
+  max-width: 30%;
+  min-height:200px ;
+}
+ #contenue{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+}
+.image{
+  width: 100%;
+  height: 60%;
+}
+.card_text{
+  font-size: 15px;
+  text-align: center;
+}
